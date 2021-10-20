@@ -4,7 +4,7 @@ phases:
   install:
     runtime-versions:
       java: corretto11
-      android: 28
+      android: 29
   build:
     commands:
       - ./gradlew testMockDebugUnitTest
