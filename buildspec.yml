@@ -7,4 +7,4 @@ phases:
       java: corretto8
   build:
     commands:
-      - ./gradlew testMockDebugUnitTest
+      - ./gradlew testMockDebugUnitTest --stacktrace
